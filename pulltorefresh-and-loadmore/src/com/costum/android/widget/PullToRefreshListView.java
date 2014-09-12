@@ -394,6 +394,7 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 			invalidateViews();
 			setSelection(1);
 		}
+		//mRefreshView.setVisibility(View.GONE);
 	}
 
 	/**

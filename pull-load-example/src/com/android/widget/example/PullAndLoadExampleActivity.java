@@ -19,14 +19,10 @@ public class PullAndLoadExampleActivity extends ListActivity {
 	private LinkedList<String> mListItems;
 
 	// The data to be displayed in the ListView
-	private String[] mNames = { "Fabian", "Carlos", "Alex", "Andrea", "Karla",
-			"Freddy", "Lazaro", "Hector", "Carolina", "Edwin", "Jhon",
-			"Edelmira", "Andres" };
+	private String[] mNames = { "Fabian", "Carlos" };
 
 	// The data to be displayed in the ListView
-	private String[] mAnimals = { "Perro", "Gato", "Oveja", "Elefante", "Pez",
-			"Nicuro", "Bocachico", "Chucha", "Curie", "Raton", "Aguila",
-			"Leon", "Jirafa" };
+	private String[] mAnimals = { "Perro" };
 
 	/** Called when the activity is first created. */
 	@Override
